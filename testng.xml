@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="email" value="kalaiyazhaki@gmail.com"></parameter>
+<parameter name="pass" value="Mamallan@1988"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="org.testngannota.TestNgParamaters"/>
+    </classes>
+  </test> 
+</suite> 

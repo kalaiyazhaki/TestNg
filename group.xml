@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="sanity"></include>
+  <include name="Functional"></include>
+    <include name="regression"></include>
+       <include name="bvt,share"></include>
+         <exclude name="share"></exclude>
+         <exclude name="cloud,smoke"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="org.testngannota.TestNgGrouping"/>
+    </classes>
+  </test> 
+</suite> 
